@@ -76,6 +76,7 @@ let g:tex_flavor = "latex"
 
 " toggle gundo
 nnoremap <leader>u :GundoToggle<CR>
+let g:gundo_prefer_python3 = 1
 
 colorscheme solarized
 set background=dark
