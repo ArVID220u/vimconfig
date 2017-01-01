@@ -1,0 +1,9 @@
+[submodule "gundo"]
+    path = bundle/gundo
+    url = https://github.com/sjl/gundo.vim
+[submodule "supertab"]
+    path = bundle/supertab
+    url = https://github.com/ervandew/supertab.git
+[submodule "vim-capslock"]
+    path = bundle/vim-capslock
+    url = https://github.com/tpope/vim-capslock.git
