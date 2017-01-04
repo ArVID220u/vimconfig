@@ -13,3 +13,8 @@ git clone https://github.com/ArVID220u/vimconfig ~/.vim
 ```
 cp ~/.vim/vimrc ~/.vimrc
 ```
+- Download the plugins (they are configures as submodules):
+```
+git submodule init
+git submodule update
+```
