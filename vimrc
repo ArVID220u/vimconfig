@@ -61,7 +61,7 @@ set foldmethod=indent
 nnoremap <Space> i_<Esc>r
 
 " quickly start typing in a cpcr template
-nnoremap <tab> 14ji<tab>
+nnoremap <tab> 15ji<tab>
 
 set scrolloff=3 " Keep 3 lines below and above the cursor
 
