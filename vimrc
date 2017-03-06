@@ -17,6 +17,9 @@ set expandtab " when pushing the tab button, enter spaces instead
 set shiftwidth=4 " indentation to 4 spaces
 set softtabstop=4 " indenatation to 4 spaces
 
+let g:syntastic_cpp_compiler = 'gcc' " gcc enforced
+let g:syntastic_cpp_compiler_options = ' -std=c++11' " c++11!
+
 set autoindent " keep the same indentation level for next line
 " set smartindent " indent smartly (whatever that means)
 
