@@ -51,10 +51,10 @@ map <C-H> <C-W>h
 map <C-L> <C-W>l
 
 " Don't move around in insert mode
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
+"inoremap <up> <nop>
+"inoremap <down> <nop>
+"inoremap <left> <nop>
+"inoremap <right> <nop>
 
 
 " Always show current position
