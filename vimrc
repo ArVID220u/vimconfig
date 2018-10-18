@@ -1,5 +1,7 @@
 let g:pathogen_disabled = []
 
+set encoding=utf-8
+
 execute pathogen#infect()
 
 syntax on
