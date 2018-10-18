@@ -7,3 +7,6 @@
 [submodule "vim-capslock"]
     path = bundle/vim-capslock
     url = https://github.com/tpope/vim-capslock.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
