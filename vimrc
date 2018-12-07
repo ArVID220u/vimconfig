@@ -1,4 +1,4 @@
-let g:pathogen_disabled = []
+let g:pathogen_disabled = ["YouCompleteMe"]
 
 set encoding=utf-8
 
@@ -21,6 +21,7 @@ set expandtab " when pushing the tab button, enter spaces instead
 set shiftwidth=4 " indentation to 4 spaces
 set softtabstop=4 " indenatation to 4 spaces
 
+let g:ycm_autoclose_preview_window_after_completion = 0
 let g:syntastic_cpp_compiler = 'g++-5' " gcc enforced
 let g:syntastic_cpp_compiler_options = ' -std=c++11' " c++11!
 let g:syntastic_always_populate_loc_list=1
@@ -96,3 +97,4 @@ let g:gundo_prefer_python3 = 1
 
 colorscheme solarized
 set background=dark
+
