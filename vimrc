@@ -1,4 +1,4 @@
-let g:pathogen_disabled = ["YouCompleteMe"]
+let g:pathogen_disabled = []
 
 set encoding=utf-8
 
