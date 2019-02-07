@@ -1,0 +1,31 @@
+" only contains the most essential vimrc commands, and no plugins
+
+set encoding=utf-8
+
+syntax on
+filetype indent plugin on
+
+let mapleader=","
+
+set relativenumber
+set number
+
+set backspace=indent,eol,start
+
+set tabstop=8 " tabs in files will constitute 8 spaces
+set expandtab " when pushing the tab button, enter spaces instead
+set shiftwidth=4 " indentation to 4 spaces
+set softtabstop=4 " indenatation to 4 spaces
+
+set autoindent " keep the same indentation level for next line
+
+set cursorline " highlight current line
+
+set wildmenu " autocomplete vim commands
+
+set incsearch " instant search
+set hlsearch " highlight search matches
+" turn off search highlight
+nnoremap <leader><space> :nohlsearch<CR>
+
+set scrolloff=3 " Keep 3 lines below and above the cursor
