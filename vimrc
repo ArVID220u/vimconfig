@@ -96,5 +96,5 @@ nnoremap <leader>u :GundoToggle<CR>
 let g:gundo_prefer_python3 = 1
 
 colorscheme solarized
-set background=dark
-
+" set background=dark
+hi Normal guibg=NONE ctermbg=NONE
